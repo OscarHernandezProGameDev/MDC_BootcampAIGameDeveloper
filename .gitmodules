@@ -1,1 +1,4 @@
 
+[submodule "proyectos/MedievalPrototype"]
+	path = proyectos/MedievalPrototype
+	url = https://github.com/OscarHernandezProGameDev/MedievalPrototype.git
