@@ -99,7 +99,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -177,15 +177,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AtlasPortada_01_0
+      name: PortadaLetra_M
       rect:
         serializedVersion: 2
         x: 0
         y: 1579
         width: 461
         height: 460
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5477691, y: 0.42553127}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -199,29 +199,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AtlasPortada_01_1
-      rect:
-        serializedVersion: 2
-        x: 462
-        y: 1732
-        width: 6
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4a15c35590fee7100800000000000000
-      internalID: 107786264467231140
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: AtlasPortada_01_2
+      name: PortadaLetra_I
       rect:
         serializedVersion: 2
         x: 503
@@ -229,7 +207,7 @@ TextureImporter:
         width: 221
         height: 377
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -243,7 +221,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AtlasPortada_01_3
+      name: PortadaLetra_K1
       rect:
         serializedVersion: 2
         x: 784
@@ -251,7 +229,7 @@ TextureImporter:
         width: 372
         height: 393
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -265,15 +243,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AtlasPortada_01_4
+      name: PortadaLetra_K2
       rect:
         serializedVersion: 2
         x: 1216
         y: 1625
         width: 384
         height: 414
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.4426527, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -287,15 +265,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AtlasPortada_01_5
+      name: PortadaLetra_A
       rect:
         serializedVersion: 2
         x: 1598
         y: 1579
         width: 378
         height: 450
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5258928, y: 0.41843885}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -309,7 +287,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AtlasPortada_01_6
+      name: PortadaAdorno_1
       rect:
         serializedVersion: 2
         x: 29
@@ -317,7 +295,7 @@ TextureImporter:
         width: 476
         height: 219
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -331,7 +309,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AtlasPortada_01_7
+      name: PortadaAdorno_2
       rect:
         serializedVersion: 2
         x: 579
@@ -339,7 +317,7 @@ TextureImporter:
         width: 482
         height: 198
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -353,15 +331,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AtlasPortada_01_8
+      name: PortadaTitulo
       rect:
         serializedVersion: 2
         x: 1202
         y: 1310
         width: 726
         height: 224
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.46629715, y: 0.6310806}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -375,7 +353,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AtlasPortada_01_9
+      name: PortadaOla_1
       rect:
         serializedVersion: 2
         x: 36
@@ -383,7 +361,7 @@ TextureImporter:
         width: 199
         height: 1157
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -397,7 +375,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AtlasPortada_01_10
+      name: PortadaLuz
       rect:
         serializedVersion: 2
         x: 266
@@ -405,7 +383,7 @@ TextureImporter:
         width: 512
         height: 777
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -419,7 +397,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AtlasPortada_01_11
+      name: PortadaNube_1
       rect:
         serializedVersion: 2
         x: 825
@@ -427,7 +405,7 @@ TextureImporter:
         width: 340
         height: 224
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -441,7 +419,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AtlasPortada_01_12
+      name: PortadaNube_2
       rect:
         serializedVersion: 2
         x: 1195
@@ -449,7 +427,7 @@ TextureImporter:
         width: 497
         height: 177
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -463,7 +441,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AtlasPortada_01_13
+      name: PortadaNube_
       rect:
         serializedVersion: 2
         x: 1729
@@ -471,7 +449,7 @@ TextureImporter:
         width: 247
         height: 506
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -485,7 +463,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AtlasPortada_01_14
+      name: PortadaNube_3
       rect:
         serializedVersion: 2
         x: 1163
@@ -493,7 +471,7 @@ TextureImporter:
         width: 490
         height: 344
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -507,7 +485,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AtlasPortada_01_15
+      name: PortadaNube_5
       rect:
         serializedVersion: 2
         x: 326
@@ -515,7 +493,7 @@ TextureImporter:
         width: 142
         height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -529,7 +507,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AtlasPortada_01_16
+      name: PortadaNube_4
       rect:
         serializedVersion: 2
         x: 630
@@ -537,7 +515,7 @@ TextureImporter:
         width: 476
         height: 334
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -551,7 +529,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AtlasPortada_01_17
+      name: PortadaCielo
       rect:
         serializedVersion: 2
         x: 1154
@@ -559,7 +537,7 @@ TextureImporter:
         width: 872
         height: 660
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -576,7 +554,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c5f326e38071b7449a75dbdb545ded5e
     internalID: 0
     vertices: []
     indices: 
@@ -586,24 +564,24 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      AtlasPortada_01_0: 5918640428518705250
       AtlasPortada_01_1: 107786264467231140
-      AtlasPortada_01_10: -6741490894290207721
-      AtlasPortada_01_11: 1320425339536929622
-      AtlasPortada_01_12: -3989750432533428330
-      AtlasPortada_01_13: 1040419246581480865
-      AtlasPortada_01_14: -4834749565584895494
-      AtlasPortada_01_15: 3108087746377684682
-      AtlasPortada_01_16: 2299981197060085307
-      AtlasPortada_01_17: -3324386729040965614
-      AtlasPortada_01_2: -1057847360564675827
-      AtlasPortada_01_3: -5199182895059136795
-      AtlasPortada_01_4: -2340399160418817420
-      AtlasPortada_01_5: -8349936936467084010
-      AtlasPortada_01_6: -3872866346548090825
-      AtlasPortada_01_7: -8531785925342204432
-      AtlasPortada_01_8: 4362862831523986258
-      AtlasPortada_01_9: -4005989642144757105
+      PortadaAdorno_1: -3872866346548090825
+      PortadaAdorno_2: -8531785925342204432
+      PortadaCielo: -3324386729040965614
+      PortadaLetra_A: -8349936936467084010
+      PortadaLetra_I: -1057847360564675827
+      PortadaLetra_K1: -5199182895059136795
+      PortadaLetra_K2: -2340399160418817420
+      PortadaLetra_M: 5918640428518705250
+      PortadaLuz: -6741490894290207721
+      PortadaNube_: 1040419246581480865
+      PortadaNube_1: 1320425339536929622
+      PortadaNube_2: -3989750432533428330
+      PortadaNube_3: -4834749565584895494
+      PortadaNube_4: 2299981197060085307
+      PortadaNube_5: 3108087746377684682
+      PortadaOla_1: -4005989642144757105
+      PortadaTitulo: 4362862831523986258
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
