@@ -73,12 +73,48 @@ public class Animal : MonoBehaviour
     public Descubridor descubridor;
     public Clasificacion clasificacion;
 
+    public void ImprimirValores()
+    {
+        Debug.Log($"Edad: {edad}");
+        Debug.Log($"Peso: {peso}");
+        Debug.Log($"Nombre: {nombre}");
+        Debug.Log($"Dormiendo: {dormiendo}");
+        Debug.Log($"Familia: {familia}");
+    }
+
+    public void DescribirClase()
+    {
+        Debug.Log("Describe un animal con sus propiedades más simples");
+    }
+
+    public void RecorrerArrays()
+    {
+        Debug.Log("Familias:");
+
+        foreach (var familia in familias)
+            Debug.Log(familia);
+
+        Debug.Log("Animales en extinción:");
+        for (var i = 0; i < animalesEnExtincion.Length; i++)
+        {
+            var animal = animalesEnExtincion[i];
+
+            Debug.Log(animal);
+        }
+    }
+
+    public void MostrarDescubridor()
+    {
+        Debug.Log($"El descubridor fue {descubridor.nombre} en la fecha {descubridor.fecha}");
+    }
+
     private void Awake()
     {
         edad = 4;
         peso = 20;
         nombre = "Perro";
-        Familia = "Canidae";
+        dormiendo = false;
+        Familia = "Manifero";
 
         familias = new string[] { "Manifero", "Ave", "Insecto" };
         animalesEnExtincion = new string[]
@@ -92,5 +128,10 @@ public class Animal : MonoBehaviour
 
         descubridor = new("El nombre", new DateTime());
         clasificacion = new Clasificacion("Manifero", "Canidae", "lupus familiaris");
+    }
+
+    private void Start()
+    {
+        Debug.Log("La clase animal se ha instanciado correctamente.");
     }
 }
