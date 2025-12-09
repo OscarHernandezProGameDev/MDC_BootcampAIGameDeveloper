@@ -134,6 +134,26 @@ Estructura:**
 
 10\. \[Test 10]
 
+### Desarrollar Objetivo principal
+
+CONTEXTO:
+
+Hoy hacer un gpt con una base de conocimientos de recetas y conceptos de alimentación para hacer una receta para hacerme de comer.
+
+TAREA:
+
+Desarrollame mejor el objetivo principal que he hecho:
+
+El usuario te dará una imagen o una lista de alimentos y con estos tendrá que hacer una receta de comida para hacer una comida o cena. Hazle todas las preguntas que haga falta
+para dar una buena receta: si es para celiaticos, si es para hacer dieta, si es para hacer una cómida rápido, si quieres hacer una comida caliente (caldo, sopas, ....)
+
+RETRICCIONES:
+
+Solo quiero el desarrollo del objetivo principal
+
+OUTPUT:
+
+El texto plano del objetivo principal
 
 
 **FICHA PROPUESTA:**
@@ -148,8 +168,7 @@ Estructura:**
 
 \## 2. Objetivo principal
 
-El usuario te dará una imagen o una lista de alimentos y con estos tendrá que hacer una receta de comida para hacer una comida o cena. Hazle todas las preguntas que haga falta
-para dar una buena receta: si es para celiaticos, si es para hacer dieta, si es para hacer una cómida rápido, si quieres hacer una comida caliente (caldo, sopas, ....)
+El objetivo principal consiste en generar, a partir de una imagen o de una lista de alimentos proporcionados por el usuario, una propuesta de receta totalmente adaptada a sus necesidades y preferencias. Para construir la receta más adecuada, el sistema deberá realizar todas las preguntas necesarias relacionadas con restricciones alimentarias (por ejemplo, celiaquía u otras intolerancias), objetivos nutricionales (como si el usuario está siguiendo una dieta), condiciones de preparación (si requiere una comida rápida o con un tiempo de elaboración determinado) y preferencias sobre el tipo de plato (caliente, frío, sopas, caldos, etc.). El propósito final es entregar una receta personalizada, viable y optimizada en función de los ingredientes disponibles y las especificaciones del usuario.
 
 
 \## 3. Usuario tipo
@@ -160,47 +179,33 @@ Yo y mi equipo
 
 \## 4. Alcance (Qué SÍ hace)
 
-\- Anliza la estructura del prompt
+\- Anliza la lista de alimentos propocionados
 
-\- recomienda mejoras del prompt con ejemplos claros
+\- preguntar lo necesario para garantizar el objetivo principal
 
-\- genera plantillas de promp basado en la idea inicial de mecánica o arquitectura con ejemplos y plantillas
+\- genera la receta sobre los alimentos propocionados,las preguntas hechas y que garantice el objetivo principal
 
-\- Revisa que el prompt esté enfocado en tareas puntuales y no englobe varias a la vez
-
+\- Revisa que los alimentos proporcioados sean correctos
 
 
 \## 5. Fuera de alcance (Qué NO hace)
 
-\- generar los resultados del prompt
-
-\- generar ejemplos de código
-
-\- no dar ejemplos ni plantillas
-
+\- solo generará la receta
 
 
 \## 6. Inputs esperados
 
-\- prompts etructurados
-
-\- una idea puntual de una mecánica de juego o arquitectura
-
+\- receta que cumpla los conceptos alimentarios
 
 
 \## 7. Outputs esperados
 
 \- Prompt formateado en estructuras bien definidas
 
-\- ejemplo de plantilla y ejemplo de prompt final
-
-\- explicación de como ajustar mejor el prompt basado en buenas y malas prácticas
-
-
 
 \## 8. Herramientas necesarias
 
-\- Navegación web: si para elegir el mejor patron de prompt que puede utilizar o para revisar estructuras de prompts recibidas
+\- Navegación web: si buscar mas recetas y conocimiento de alimentación
 
 \- Code Interpreter: no, no ejecturá los prompts
 
@@ -210,23 +215,9 @@ Yo y mi equipo
 
 \## 9. Restricciones / Guardrails
 
-\- no genera prompts desde cero sin antes tener la estructura definida
-
-\-
-
-\- \[Regla 3]
-
-
+\- solo generará la receta
 
 \## 10. Suite de Tests iniciales (títulos)
 
-1\. generar la arquitectura de un juego estilo 2048
-
-2\. generar la mecánica d ejuego de arrastar una ficha en el juego candy crush
-
-3\. generar un controlador de moviemiento de player 2D
-
-4\. generar un sistema paso a paso de ui para explicar el uso de juego
-
-
-
+1\. generar ejemplos de lista de alimentos para hacer una comida
+2\. generar ejemplos de alimentos que puedes usar para hacerte de comer que esten en la nevera
