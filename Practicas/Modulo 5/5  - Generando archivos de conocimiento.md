@@ -74,11 +74,11 @@ FORMATO DE RESPUESTA (CON CANVAS ACTIVADO):
 
 Genera cada archivo como un documento nuevo en el Lienzo con su nombre exacto, por ejemplo:
 
-\- plantilla\_prompt\_unity\_6\_2\_rtcov.md
+\-base_recetas_por_ingrediente_y_tipo_de_plato.md
 
-\- guia\_buenas\_practicas\_prompts\_unity\_bootcamp.md
+\- guia_tecnicas_cocina_basica_intermedia.md
 
-\- convenciones\_arquitectura\_unity\_6\_2\_masterdevs.md
+\- alergenos_frecuentes_y_ingredientes_comerciales.md
 
 
 
