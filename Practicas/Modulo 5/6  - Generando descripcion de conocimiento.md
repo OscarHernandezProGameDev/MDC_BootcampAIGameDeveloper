@@ -50,7 +50,7 @@ A partir de los documentos que voy a pegar a continuación, debes:
 
    - Convenciones
 
-   - Niveles de alumno
+   - Niveles de usuario
 
    - Casos típicos
 
